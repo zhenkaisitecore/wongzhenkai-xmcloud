@@ -1,3 +1,0 @@
-<ItemGroup>
-    <Content Include="App_Data\**" />
-</ItemGroup>
