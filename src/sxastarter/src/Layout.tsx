@@ -7,8 +7,6 @@ import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/s
 import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Scripts from 'src/Scripts';
 
-import { SayHello } from 'src/custom-components/Hello';
-
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = getPublicUrl();
@@ -46,7 +44,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
         <main>
-          <SayHello name="Wong Zhen Kai" />
           <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
         </main>
         <footer>
