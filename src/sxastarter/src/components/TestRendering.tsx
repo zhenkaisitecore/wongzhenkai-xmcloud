@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Field, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, Text, Image, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   SomeText: Field<string>;
+  Image: ImageField;
 }
 
 type MyRenderingProps = {
   params: { [key: string]: string };
-
   fields: Fields;
 };
 
@@ -18,6 +18,7 @@ export const Default = (props: MyRenderingProps): JSX.Element => {
       <div className="component-content">
         <div>
           <Text field={props.fields.SomeText} />
+          <Image field={props.fields.Image} />
         </div>
       </div>
     </div>
