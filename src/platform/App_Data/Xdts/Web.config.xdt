@@ -4,16 +4,18 @@
         <system.webServer>
             <httpProtocol>
                 <customHeaders>
-	            <!--DO NOT USE THIS CONTENT SECURITY POLICY EXAMPLE IN YOUR SOLUTION-->
+                    <!--DO
+                    NOT USE THIS CONTENT SECURITY POLICY EXAMPLE IN YOUR SOLUTION-->
                     <add name="Content-Security-Policy"
-            value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net;
+                        value="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://apps.sitecore.net;
     img-src 'self' data https://zksandbox.sitecoresandbox.cloud/;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' 'unsafe-inline' https://fonts.gstatic.com;
     upgrade-insecure-requests; block-all-mixed-content;
     child-src 'self' https://zksandbox.sitecoresandbox.cloud/;
     connect-src 'self' https://zksandbox.sitecoresandbox.cloud/;
-    media-src https://zksandbox.sitecoresandbox.cloud/;" />
+    media-src https://zksandbox.sitecoresandbox.cloud/;
+    frame-src https://zksandbox.sitecoresandbox.cloud/;" />
                 </customHeaders>
             </httpProtocol>
         </system.webServer>
