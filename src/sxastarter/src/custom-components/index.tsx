@@ -1,5 +1,7 @@
-import * as FEAAS from '@sitecore-feaas/clientside/react';
-import ClientsideBundle from './index.client';
-import dynamic from 'next/dynamic';
+import './Hello';
 
-FEAAS.enableNextClientsideComponents(dynamic, ClientsideBundle);
+function CustomComponents() {
+  return <></>;
+}
+
+export default CustomComponents;
