@@ -15,5 +15,6 @@ const SayHello = () => {
 export default SayHello;
 
 FEAAS.registerComponent(SayHello, {
-  name: 'Say Hello BYOC component',
+  name: 'HelloBYOC',
+  group: 'Default collection',
 });
