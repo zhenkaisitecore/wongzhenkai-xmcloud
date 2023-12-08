@@ -16,6 +16,7 @@ export const Default = (props: CHImageProps): JSX.Element => {
     <div className={`component chimage ${props.params.styles}`}>
       <div className="component-content">
         <div>
+          <h1>Test image come after this</h1>
           <Image field={props.fields.CHImage} />
         </div>
       </div>
