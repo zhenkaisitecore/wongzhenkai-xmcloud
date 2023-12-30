@@ -33,10 +33,6 @@
       {
           "xdtPath": "/app_data/xdts/web.config.xdt",
           "targetPath": "/web.config"
-      },
-      {
-          "xdtPath": "/App_Config/Include/Test.config.xdt",
-          "targetPath": "/App_Config/Include/Test.config"
       }
   ]
 }
