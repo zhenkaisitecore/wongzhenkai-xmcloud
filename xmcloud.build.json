@@ -37,6 +37,6 @@
       {
           "xdtPath": "/App_Config/Include",
           "targetPath": "/App_Config/Include"
-      },
+      }
   ]
 }
