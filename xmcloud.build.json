@@ -35,8 +35,8 @@
           "targetPath": "/web.config"
       },
       {
-          "xdtPath": "/App_Config/Include",
-          "targetPath": "/App_Config/Include"
+          "xdtPath": "/App_Config/Include/Test.config.xdt",
+          "targetPath": "/App_Config/Include/Test.config"
       }
   ]
 }
