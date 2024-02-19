@@ -1,0 +1,51 @@
+﻿---
+ID: "0976d5dd-265d-41fb-a94e-b5bccf1d80b8"
+Parent: "05b5ff5c-9fd4-4fc8-898d-06f788595e80"
+Template: "d83ae6c8-479b-4c39-b68b-2fbbee4b0e5c"
+Path: "/sitecore/content/Test/Test/Home/COMP-1060"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{34090249-F5BB-42A0-9321-47DFB6410F89}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6267AB4C-66AD-40D0-BDD2-2ECFBB4F06AB}"
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:par="ComponentName=Hello%20BYOC&amp;ComponentConfiguration&amp;LibraryId=74Ui7QTloKCgf36vVIi7wO&amp;ComponentId=MUHfcYFMd0&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https%3A%2F%2Ffeaas.blob.core.windows.net&amp;ComponentInstanceId=3Lz-GC4bzwbWpCZ&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;ComponentLabel=Hello%20BYOC&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240112T035919Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "COMP-1060"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71133d45-189b-452c-8e7a-8d8687e305a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zhenkai.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240112T040128Z
+    - ID: "fd9b4ab3-f19c-4fe8-b806-ddff31a10a79"
+      Hint: Title
+      Value: "COMP-1060"

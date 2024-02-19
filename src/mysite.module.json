@@ -1,0 +1,34 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "MySite",
+  "items": {
+    "includes": [
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Placeholder Settings/Project/",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/Templates/Project",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "contentRoot",
+        "path": "/sitecore/content",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "rules": [
+          {
+            "path": "/rosengroup",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/Media Library/Project",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
